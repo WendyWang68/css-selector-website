@@ -1,0 +1,68 @@
+body {
+  background-color: #CEAEF9;
+}
+
+h1 {
+  color: #0A2556;
+  font-size: 50px;
+  text-align: center;
+  font-family: "georgia", serif;
+}
+
+.picture1 {
+  width: 800px;
+  height: 533.4px;
+  display: block;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p + p {
+  margin-top: 35px;
+}
+
+.myDiv1 {
+  background-color: #AEE9F9;
+  font-family: "lucida handwriting", cursive;
+  text-align: center;
+  word-spacing: 2px;
+  font-size: 20px;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.myDiv2 {
+  font-size: 23px;
+  display: block;
+  text-align: center;
+  margin: 30px;
+}
+
+flexSection {
+  display: flex;
+}
+
+.flexSection div {
+  font-family: "lucida handwriting", cursive;
+  word-spacing: 2px;
+  font-size: 20px;
+  background-color: #ccc;
+  margin: 16px;
+  padding: 16px;
+  display: block;
+  text-align: center;
+}
+
+.flexSection > div {
+  background-color: #C6EFD4;
+}
+
+a:hover {
+  color: #1C28E5;
+  border: 5px double;
+}
+
+a, a:active, a:visited{
+  color: grey;
+}
